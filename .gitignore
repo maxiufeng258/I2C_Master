@@ -1,18 +1,13 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# ignore all files
+/*
 
-# Other files and folders
-.settings/
+# these files don't ignore
+!*.gitignore
+!README.md
+!LICENSE
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+!/I2C_Master.srcs
+ /I2C_Master.srcs/*
+!/I2C_Master.srcs/sources_1
+ /I2C_Master.srcs/sources_1/*
+!/I2C_Master.srcs/sources_1/new *.vhd
